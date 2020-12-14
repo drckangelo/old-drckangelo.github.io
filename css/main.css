@@ -852,7 +852,13 @@ body > footer .copyrights {
   background-repeat: no-repeat;
 }
 
-.start-page-content .page-header .photo {
+/* .featured {
+
+  width: 50px;
+  height: 50px;
+  position: relative;
+} */
+.start-page-content .page-header .photo  {
   max-width: 280px;
   margin-bottom: -75px;
   border: 3px solid #fff;
@@ -949,6 +955,30 @@ body > footer .copyrights {
 
 .start-page-content .page-content .download-resume {
   margin-top: 15px;
+}
+
+.feature-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333333; */
+
+  
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+
+  text-decoration: none;
 }
 
 .info-list {
