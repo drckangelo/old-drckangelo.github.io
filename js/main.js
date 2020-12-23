@@ -272,7 +272,7 @@
         //Google Maps
         $("#map").googleMap();
         $("#map").addMarker({
-            address: "Via Santa margherita, 4 Bologna 40123 Italy" // Your Address
+            address: "10600 N Tantau Ave, Cupertino, CA 95014" // Your Address
         });
     });
 
