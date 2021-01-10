@@ -1123,6 +1123,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
+    width: 100px;
+    height: 100px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -3686,7 +3689,13 @@ tbody.collapse.in {
   border-radius: 0;
 }
 .btn-group > .btn:first-child {
+  
   margin-left: 0;
+  height: 30px;
+  width: 140px;
+  background: #5cbee4;
+  color: white;
+  border-radius: 4px;
 }
 .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
   border-top-right-radius: 0;
